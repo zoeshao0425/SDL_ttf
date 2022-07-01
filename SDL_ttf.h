@@ -36,8 +36,8 @@
 #ifndef SDL_TTF_H_
 #define SDL_TTF_H_
 
-#include "SDL.h"
-#include "begin_code.h"
+#include "Xcode/macOS/SDL2.framework/Versions/A/Headers/SDL.h"
+#include "Xcode/macOS/SDL2.framework/Versions/A/Headers/begin_code.h"
 
 /* Set up for C function definitions, even when using C++ */
 #ifdef __cplusplus
@@ -2313,7 +2313,7 @@ extern DECLSPEC int SDLCALL TTF_SetFontScriptName(TTF_Font *font, const char *sc
 #ifdef __cplusplus
 }
 #endif
-#include "close_code.h"
+#include "Xcode/macOS/SDL2.framework/Versions/A/Headers/close_code.h"
 
 #endif /* SDL_TTF_H_ */
 
